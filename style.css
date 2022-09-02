@@ -1,0 +1,41 @@
+/* google font use */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald&family=Prompt&family=Source+Serif+Pro&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+/* Banner css */
+.banner-container {
+    display: flex;
+    padding: 50px 140px;
+    background-color: #161616;
+    width: 1300px;
+    height: 646px;
+    border-radius: 30px;
+}
+
+.greatest-show {
+    color: aliceblue;
+    width: 530px;
+    height: 420px;
+
+}
+
+.watch-live {
+    width: 187px;
+    height: 56px;
+    color: white;
+    background-color: #DD0000;
+    font-size: large
+}
+
+.banner-image {
+    width: 581px;
+    height: 613px;
+    padding-top: 30px;
+    margin-left: 24px;
+}
