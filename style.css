@@ -39,3 +39,29 @@ body {
     padding-top: 30px;
     margin-left: 24px;
 }
+
+/* transfer section going on  */
+.blog {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.blog .transfer a {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.transfer {
+    width: 30%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+    width: 30%;
+}
